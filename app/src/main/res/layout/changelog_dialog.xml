@@ -1,0 +1,127 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear8"
+		android:layout_width="80dp"
+		android:layout_height="5dp"
+		android:layout_margin="5dp"
+		android:padding="8dp"
+		android:background="#9C27B0"
+		android:orientation="horizontal"
+		android:layout_gravity="center_horizontal" />
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:layout_margin="5dp"
+		android:padding="8dp"
+		android:gravity="left"
+		android:orientation="horizontal">
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="100dp"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:focusable="false"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:src="@drawable/jshss"
+				android:scaleType="centerCrop" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview5"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="UNBANNED WA PREMIUM"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/textview8"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Version 1.0 Rebuild"
+				android:textSize="10sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="160dp"
+		android:layout_margin="5dp"
+		android:padding="8dp"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="What's new"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear9"
+			android:layout_width="match_parent"
+			android:layout_height="3dp"
+			android:padding="8dp"
+			android:background="#000000"
+			android:orientation="horizontal" />
+		<TextView
+			android:id="@+id/textview2"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="[+] New UI\n[+] Added one time number\n[+] New Template\n[+] Customisation\n[+] Fixed some bugs\n"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear7"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/buttonchang0"
+			android:layout_width="170dp"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:padding="8dp"
+			android:text="Don't show again!"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<Button
+			android:id="@+id/buttonchang1"
+			android:layout_width="170dp"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:padding="8dp"
+			android:text="Okay!"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>
